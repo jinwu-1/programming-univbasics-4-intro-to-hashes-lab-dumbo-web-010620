@@ -3,12 +3,16 @@ def new_hash
 end
 
 def my_hash
-  hash = {:fruit => "Apple"}
+  hash = {
+    :fruit => "Apple"
+  }
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  pioneer = {:name => "Grace Hopper"}
+  pioneer = {
+    :name => "Grace Hopper"
+  }
 end
 
 def id_generator
@@ -23,6 +27,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+
 end
 
 def update_counting_hash(hash, key)
